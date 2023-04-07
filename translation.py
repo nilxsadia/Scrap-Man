@@ -1,30 +1,30 @@
 class Translation(object):
-    START_TEXT = """<b>𝙎𝘾𝙍𝘼𝙋 𝙈𝘼𝙉 di buat untuk Membantu anda Untuk Mengambil APP ID dan API Hash dengan Mudah dan AMAN!
+     START_TEXT = """<b>𝙎𝘾𝙍𝘼𝙋 𝙈𝘼𝙉 is made to Help you To Retrieve APP ID and API Hash Easily and SAFE!
 ━━━━━━━━━━━━━━━━━━━━━━━━
-Silahkan Masukkan Nomor Telepon Telegram Anda Dengan Format Kode Negara.
-Contoh : +628xxxxxxx</b>
+Please Enter Your Telegram Phone Number With Country Code Format.
+Example : +628xxxxxx</b>
 """
-    AFTER_RECVD_CODE_TEXT = """<b>No HP Diterima!
-Silahkan kirimkan kode yang anda terima dari Telegram!</b>
+     AFTER_RECVD_CODE_TEXT = """<b>No HP Received!
+Please send us the code you received from Telegram!</b>
 
-Kode ini hanya digunakan untuk tujuan mendapatkan ID APP dari my.telegram.org
-Jika anda tidak mempercayai dev bot ini, ngambil manual aja.
+This code is only used for the purpose of getting the APP ID from my.telegram.org
+If you don't trust the dev bot, just get the manual.
 """
-    BEFORE_SUCC_LOGIN = "<code>Kode Diterima. Scarpping Web Page. . .</code>"
-    ERRED_PAGE = """Hadeh Error. Coba dengan Cara Manual
+     BEFORE_SUCC_LOGIN = "<code>Code Received. Scarpping Web Page. . .</code>"
+     ERRED_PAGE = """Hadeh Error. Try Manually
 
-Cara Ambil APP ID dan API HASH Secara Manual:
-1. Buka my.telegram.org/auth
-2. Loginkan akun telegram kalian
-3. klik menu API Development
-4. isi data seperti dibawah ini :
+How to Manually Retrieve APP ID and API HASH:
+1. Go to my.telegram.org/auth
+2. Login to your telegram account
+3. Click the API Development menu
+4. Fill in the data as below:
 • App Title : tgbot
 • Short Name : tgbot
-• URL : (kosongin)
-• Platform : desktop
-5. Selesai
+• URL : (blank)
+• Platforms : desktops
+5. Done
 
-Bila Berhasil Ambil Manual Silahkan Coba Lagi di Bot ini"""
-    CANCELLED_MESG = "<b>Bye! Silahkan /start kembali untuk mengulang</b>"
-    IN_VALID_CODE_PVDED = "<b>Kode OTP yang anda Masukan SALAH</b>"
-    IN_VALID_PHNO_PVDED = "<b>No HP yang anda masukan SALAH, Silahkan Masukkan Nomor Telepon Telegram Anda Dengan Format Kode Negara.\nContoh: +628xxxxxxx</b>"
+If Successful Download Manual Please Try Again on this Bot"""
+     CANCELLED_MESG = "<b>Bye! Please /start again to repeat</b>"
+     IN_VALID_CODE_PVDED = "<b>The OTP code you entered is WRONG</b>"
+     IN_VALID_PHNO_PVDED = "<b>The mobile number you entered is WRONG, Please Enter Your Telegram Phone Number With Country Code Format.\nExample: +628xxxxxxxx</b>"
