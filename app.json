@@ -13,6 +13,7 @@
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
+ "required": false
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string."
@@ -20,6 +21,7 @@
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
       "value": "https://example.com/"
+ "required": false
     },
     "APP_TITLE": {
       "description": "specify a custom app title",
