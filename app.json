@@ -16,8 +16,9 @@
  "required": false
     },
     "TG_BOT_TOKEN": {
+      "valu": "anything"
       "description": "Your bot token, as a string."
- "required": false
+ "required": true
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
