@@ -16,8 +16,8 @@
       "required": false
     },
     "TG_BOT_TOKEN": {
-      "valu": "anything"
       "description": "Your bot token, as a string."
+      "value": "anything"
       "required": true
     },
     "URL": {
