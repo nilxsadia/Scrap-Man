@@ -18,12 +18,12 @@
     "TG_BOT_TOKEN": {
       "valu": "anything"
       "description": "Your bot token, as a string."
- "required": true
+      "required": true
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
       "value": "https://example.com/"
- "required": false
+      "required": false
     },
     "APP_TITLE": {
       "description": "specify a custom app title",
