@@ -24,7 +24,7 @@
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
       "value": "https://example.com/"
       "required": false
-    },
+    }
   },
   "formation": {
     "web": {
